@@ -37,5 +37,5 @@ Future<void> main(List<String> arguments) async {
 
   final data = JsonDecoder().convert(response.body) as Map<String, dynamic>;
 
-  print('Результdouble ${data['result']}');
+  print('Результат: ${data['result']}');
 }
